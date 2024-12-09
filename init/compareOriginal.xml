@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ascii"?>
+<ns0:Envelope
+	xmlns:ns0="http://www.w3.org/2003/05/soap-envelope"
+	xmlns:ns1="http://www.mondialrelay.fr/webservice/">
+
+	<ns0:Body>
+		<ns1:WSI4_PointRelais_Recherche>
+			<ns1:Enseigne>BDTEST13</ns1:Enseigne>
+			<ns1:Pays>FR</ns1:Pays>
+			<ns1:Ville>None</ns1:Ville>
+			<ns1:CP>31110</ns1:CP>
+			<ns1:NombreResultats>25</ns1:NombreResultats>
+			<ns1:Security>2182F9A903814E15C938C8FAC2DE71E9</ns1:Security>
+		</ns1:WSI4_PointRelais_Recherche>
+	</ns0:Body>
+</ns0:Envelope>

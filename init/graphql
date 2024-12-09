@@ -1,0 +1,15 @@
+https://lighthouse-php.com/6/getting-started/installation.html
+
+composer require nuwave/lighthouse
+php artisan vendor:publish --tag=lighthouse-schema
+
+# IDE Support
+php artisan lighthouse:ide-helper
+composer require mll-lab/laravel-graphiql
+
+# configuration
+php artisan vendor:publish --tag=lighthouse-config
+
+# Install GraphQL DevTools
+composer require mll-lab/laravel-graphiql
+

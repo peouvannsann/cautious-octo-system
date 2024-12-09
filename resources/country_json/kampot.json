@@ -1,0 +1,246 @@
+[
+    {
+      "id" : 1,
+      "name": "Bokor Hill Station",
+      "country"            : "Kampot",
+      "location": "Kampot, Cambodia",
+      "rate_star"          : "4",
+      "grade"              : 9.3,
+      "evaluation"         : "Wonderful",
+      "reviewer_population": 787,
+      "btn_show_price"     : "add to plan",
+      "categories"         : [
+        "mountain", "travel", "water fall"
+      ],
+      "openingTime": "7:00 AM",
+      "closingTime": "5:00 PM",
+      "description": "An abandoned French hill station in the Bokor National Park offering stunning views and historical ruins.",
+      "googleMapsLink": "https://goo.gl/maps/PEX2vVH2qkN2",
+      "show_on_map"   : {
+        "content" : "show on map",
+        "link"    : "http://etc",
+        "distance": 0.8,
+        "metre"   : "km"
+      },
+      "images": [
+        { "img": "https://angkorfocus.com/backoffice/uploads/attraction-Bokor%20Mountain%20Kampot%20Province.jpg", "title": "Bokor Mountain Kampot Province" },
+        { "img": "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1200,h_630/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/ytypkwshot105fytptyp/Bokor%20Mountain%20Day%20Trip%20from%20Sihanoukville%2C%20Cambodia.jpg", "title": "Bokor Mountain Day Trip from Sihanoukville, Cambodia" },
+        { "img": "https://movetocambodia.com/wp-content/uploads/Bokor-Mountain-Sampov-Pram-Pagoda.jpg", "title": "Bokor Mountain Sampov Pram Pagoda" },
+        { "img": "https://www.greeneratravel.com/userfiles/850bokormountain.jpg", "title": "Bokor Mountain" },
+        { "img": "https://bayontabitour.com/userfiles/bokor-mountain-att-b.jpg", "title": "Bokor Mountain" }
+    ]
+    },
+    {
+      "id" : 2,
+      "name": "Kampot Pepper Farm",
+      "country"            : "Kampot",
+      "location": "Kampot, Cambodia",
+      "rate_star"          : "4",
+      "grade"              : 9.3,
+      "evaluation"         : "Wonderful",
+      "reviewer_population": 787,
+      "btn_show_price"     : "add to plan",
+      "categories"         : [
+        "farm"
+      ],
+      "openingTime": "8:00 AM",
+      "closingTime": "5:00 PM",
+      "description": "Famous for producing world-renowned Kampot pepper, these farms offer tours to learn about pepper cultivation.",
+      "googleMapsLink": "https://goo.gl/maps/T4Qd8d7h7Jo",
+      "show_on_map"   : {
+        "content" : "show on map",
+        "link"    : "http://etc",
+        "distance": 0.8,
+        "metre"   : "km"
+      },
+      "images": [
+        { "img": "https://www.khmertimeskh.com/wp-content/uploads/2020/08/8064.jpg", "title": "Kampot Pepper Farm" },
+        { "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/94/24/5a/caption.jpg?w=1200&h=-1&s=1", "title": "Kampot Pepper Farm" },
+        { "img": "https://pppenglish.sgp1.digitaloceanspaces.com/image/main/field/image/the_land_designated_for_kampot_pepper_cultivation_has_increased_from_10ha_in_2010_to_290ha_as_of_april_last_year_which_can_yield_82.78_tonnes_each_year._supplied.jpg", "title": "Kampot Pepper Cultivation Land" },
+        { "img": "https://www.allworld.com/wp-content/uploads/2017/11/kampot-pepper-farm-1024x683.jpg", "title": "Kampot Pepper Farm" }
+    ]
+    },
+    {
+      "id" : 3,
+      "name": "Phnom Chhngok Cave Temple",
+      "country"            : "Kampot",
+      "location": "Kampot, Cambodia",
+      "rate_star"          : "4",
+      "grade"              : 9.3,
+      "evaluation"         : "Wonderful",
+      "reviewer_population": 787,
+      "btn_show_price"     : "add to plan",
+      "categories"         : [
+        "cave"
+      ],
+      "openingTime": "8:00 AM",
+      "closingTime": "4:00 PM",
+      "description": "A natural cave featuring a 7th-century brick temple dedicated to Shiva, set in a beautiful rural area.",
+      "googleMapsLink": "https://goo.gl/maps/Vq2xQm7PmzH2",
+      "show_on_map"   : {
+        "content" : "show on map",
+        "link"    : "http://etc",
+        "distance": 0.8,
+        "metre"   : "km"
+      },
+      "images": [
+        { "img": "https://www.khmertimeskh.com/wp-content/uploads/2020/10/10767.jpg", "title": "Phnom Chhngok Cave Temple" },
+        { "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/2e/24/98/phnom-chhngok-cave-temple.jpg?w=1200&h=-1&s=1", "title": "Phnom Chhngok Cave Temple" },
+        { "img": "https://www.cambodiaacountryfullofcharm.com/wp-content/uploads/2022/11/phnom-chhngok-temple-kampot-cambodia-scaled-e1669742974341.jpg", "title": "Phnom Chhngok Temple, Kampot, Cambodia" },
+        { "img": "https://www.travelauthenticasia.com/photos/tours/cambodia/gallery/kampot/phnom-chngok-8.jpg", "title": "Phnom Chngok" }
+    ]
+    },
+    {
+      "id" : 4,
+      "name": "Kampot River Cruise",
+      "country"            : "Kampot",
+      "location": "Kampot, Cambodia",
+      "rate_star"          : "4",
+      "grade"              : 9.3,
+      "evaluation"         : "Wonderful",
+      "reviewer_population": 787,
+      "btn_show_price"     : "add to plan",
+      "categories"         : [
+        "cruise", "river"
+      ],
+      "openingTime": "Varies",
+      "closingTime": "Varies",
+      "description": "Scenic river cruises offering spectacular views of Kampot's natural beauty and sunsets.",
+      "googleMapsLink": "https://goo.gl/maps/3kx9qW6f3Dx",
+      "show_on_map"   : {
+        "content" : "show on map",
+        "link"    : "http://etc",
+        "distance": 0.8,
+        "metre"   : "km"
+      },
+      "images": [
+        { "img": "https://britadventures.com/wp-content/uploads/2022/03/firefly-boat-tour-kampot.jpg", "title": "Firefly Boat Tour Kampot" },
+        { "img": "https://cambotours.com/userfiles/river-cruise-sunset-day-tour.jpg", "title": "River Cruise Sunset Day Tour" },
+        { "img": "https://cambotours.com/userfiles/thumbs/private-sunset-cruise-in-kep-city.jpg", "title": "Private Sunset Cruise in Kep City" },
+        { "img": "https://pbs.twimg.com/media/FA12yHvUYAQcbzW.jpg", "title": "Kampot River Cruise" }
+    ]
+    },
+    {
+      "id" : 5,
+      "name": "Teuk Chhou Rapids",
+      "country"            : "Kampot",
+      "location": "Kampot, Cambodia",
+      "rate_star"          : "4",
+      "grade"              : 9.3,
+      "evaluation"         : "Wonderful",
+      "reviewer_population": 787,
+      "btn_show_price"     : "add to plan",
+      "categories"         : [
+        "water fall"
+      ],
+      "openingTime": "9:00 AM",
+      "closingTime": "5:00 PM",
+      "description": "A popular local getaway spot where visitors can relax and enjoy the natural rapids and scenic surroundings.",
+      "googleMapsLink": "https://goo.gl/maps/juBQzgyVrRv",
+      "show_on_map"   : {
+        "content" : "show on map",
+        "link"    : "http://etc",
+        "distance": 0.8,
+        "metre"   : "km"
+      },
+      "images": [
+            { "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/7a/c1/cc/teuk-chhou-rapids.jpg?w=1200&h=-1&s=1", "title": "Teuk Chhou Rapids" },
+            { "img": "https://www.guidetrip.info/asset/img/gallery_resort/5abc7d5e27179.jpg", "title": "Teuk Chhou" },
+            { "img": "https://www.guidetrip.info/asset/img/gallery_album/5cf9c4bfd3429.jpg", "title": "Teuk Chhou" },
+            { "img": "https://ak-d.tripcdn.com/images/0ww5g12000c7qphadB163.jpg?proc=source%2Ftrip", "title": "Teuk Chhou" },
+            { "img": "https://live.staticflickr.com/4355/37096755931_2f5616840e_b.jpg", "title": "Teuk Chhou" }
+          ]
+    },
+    {
+      "id" : 6,
+      "name": "Kampot Provincial Museum",
+      "country"            : "Kampot",
+      "location": "Kampot, Cambodia",
+      "rate_star"          : "4",
+      "grade"              : 9.3,
+      "evaluation"         : "Wonderful",
+      "reviewer_population": 787,
+      "btn_show_price"     : "add to plan",
+      "categories"         : [
+        "museum", "history"
+      ],
+      "openingTime": "8:00 AM",
+      "closingTime": "5:00 PM",
+      "description": "A museum showcasing the history, culture, and traditions of Kampot province.",
+      "googleMapsLink": "https://goo.gl/maps/Kn7xS7TJy572",
+      "show_on_map"   : {
+        "content" : "show on map",
+        "link"    : "http://etc",
+        "distance": 0.8,
+        "metre"   : "km"
+      },
+      "images": [
+        { "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/dc/c5/a1/the-buitiful-french-colonial.jpg?w=1200&h=-1&s=1", "title": "Beautiful French Colonial Building" },
+        { "img": "https://kampottourism.gov.kh/wp-content/uploads/2018/08/IMG_8873-1078x516.jpg", "title": "Kampot Provincial Museum Exterior" },
+        { "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/2016_Kampot%2C_Muzeum_Prowincji_Kampot_%2801%29.jpg/2560px-2016_Kampot%2C_Muzeum_Prowincji_Kampot_%2801%29.jpg", "title": "2016 Kampot Provincial Museum" },
+        { "img": "https://mangoesandmandalas.com/wp-content/uploads/2022/12/Kampot-Museum.jpg", "title": "Kampot Museum Interior" },
+        { "img": "https://kampottourism.gov.kh/wp-content/uploads/2018/08/IMG_8913-1024x768.jpg", "title": "Kampot Provincial Museum Display" }
+    ]
+    },
+    {
+      "id" : 7,
+      "name": "Salt Fields",
+      "country"            : "Kampot",
+      "location": "Kampot, Cambodia",
+      "rate_star"          : "4",
+      "grade"              : 9.3,
+      "evaluation"         : "Wonderful",
+      "reviewer_population": 787,
+      "btn_show_price"     : "add to plan",
+      "categories"         : [
+        "farm"
+      ],
+      "openingTime": "7:30 AM",
+      "closingTime": "6:30 PM",
+      "description": "Kampot's salt fields offer a glimpse into the salt production process and are particularly striking at sunset.",
+      "googleMapsLink": "https://goo.gl/maps/L2iCX6PuQaJ2",
+      "show_on_map"   : {
+        "content" : "show on map",
+        "link"    : "http://etc",
+        "distance": 0.8,
+        "metre"   : "km"
+      },
+      "images": [
+        { "img": "https://cambodia-images.com/wp-content/uploads/2018/04/Kampot-salt-fields-sunset.jpg", "title": "Kampot Salt Fields at Sunset" },
+        { "img": "https://smartsinntravel.com/userfiles/salt-fields-smart-sinn-travel8.jpg", "title": "Kampot Salt Fields" },
+        { "img": "https://www.familycoreladventures.com/wp-content/uploads/2016/10/11-844-post/X3A7112.jpg", "title": "Kampot Salt Fields View" },
+        { "img": "https://www.neverendingvoyage.com/wp-content/uploads/2014/03/salt-fields-kampot-sunrise-cambodia-main.jpg", "title": "Salt Fields Kampot Sunrise" }
+    ]
+    },
+    {
+      "id" : 8,
+      "name": "La Plantation",
+      "country"            : "Kampot",
+      "location": "Kampot, Cambodia",
+      "rate_star"          : "4",
+      "grade"              : 9.3,
+      "evaluation"         : "Wonderful",
+      "reviewer_population": 787,
+      "btn_show_price"     : "add to plan",
+      "categories"         : [
+        "farm"
+      ],
+      "openingTime": "9:00 AM",
+      "closingTime": "5:00 PM",
+      "description": "A sustainable and organic farm specializing in Kampot pepper, with guided tours and a restaurant.",
+      "googleMapsLink": "https://goo.gl/maps/5QsBN5vBqGn",
+      "show_on_map"   : {
+        "content" : "show on map",
+        "link"    : "http://etc",
+        "distance": 0.8,
+        "metre"   : "km"
+      },
+      "images": [
+        { "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/75/44/89/la-plantation-6.jpg?w=1200&h=-1&s=1", "title": "La Plantation View" },
+        { "img": "https://www.travona.net/_next/image?url=https%3A%2F%2Fapi.travona.net%2Fv1%2Ffiles%2F5fec85edd560c86ed9f433a9&w=3840&q=75", "title": "La Plantation Scenery" },
+        { "img": "https://live.staticflickr.com/65535/48029901928_b261be5f15_b.jpg", "title": "La Plantation Fields" },
+        { "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/03-La_Plantation_Pepper_Farm%2C_Kampot_Province-nX-1.jpg/2560px-03-La_Plantation_Pepper_Farm%2C_Kampot_Province-nX-1.jpg", "title": "La Plantation Pepper Farm" }
+    ]
+    }
+  ]
+  

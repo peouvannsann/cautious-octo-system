@@ -1,0 +1,15 @@
+{
+    "user_id" : 1,
+    "plan" : [
+        {
+            "start_date" : "",
+            "end_date" : "",
+            "visit_place" : [1,2,3,4]
+        },
+        {
+            "start_date" : "",
+            "end_date" : "",
+            "visit_place" : [1,2,3,4]
+        }
+    ]
+}

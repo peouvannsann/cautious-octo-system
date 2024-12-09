@@ -1,0 +1,52 @@
+[
+    {
+        "plan_visit_place_id": 1,
+        "visit_place_id"     : 1,
+        "day"                : 1
+    },
+    {
+        "plan_visit_place_id": 1,
+        "visit_place_id"     : 2,
+        "day"                : 1
+    },
+    {
+        "plan_visit_place_id": 1,
+        "visit_place_id"     : 3,
+        "day"                : 2
+    },
+    {
+        "plan_visit_place_id": 1,
+        "visit_place_id"     : 4,
+        "day"                : 2
+    },
+    {
+        "plan_visit_place_id": 1,
+        "visit_place_id"     : 5,
+        "day"                : 2
+    },
+    {
+        "plan_visit_place_id": 1,
+        "visit_place_id"     : 6,
+        "day"                : 3
+    },
+    {
+        "plan_visit_place_id": 2,
+        "visit_place_id"     : 6,
+        "day"                : 2
+    },
+    {
+        "plan_visit_place_id": 3,
+        "visit_place_id"     : 3,
+        "day"                : 1
+    },
+    {
+        "plan_visit_place_id": 4,
+        "visit_place_id"     : 4,
+        "day"                : 1
+    },
+    {
+        "plan_visit_place_id": 5,
+        "visit_place_id"     : 5,
+        "day"                : 1
+    }
+]

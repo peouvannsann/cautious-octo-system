@@ -1,0 +1,296 @@
+[
+    {
+      "id"                 : 1,
+      "name"               : "Angkor Wat",
+      "country"            : "Siem Reap",
+      "location"           : "Krong Siem Reap, Cambodia",    
+      "rate_star"          : "4",
+      "grade"              : 9.3,
+      "evaluation"         : "Wonderful",
+      "reviewer_population": 787,
+      "btn_show_price"     : "add to plan",
+      "categories"         : [
+        "temple", "travel"
+      ],
+      "openingTime"        : "5:00 AM",
+      "closingTime"        : "6:00 PM",
+      "description"        : "A UNESCO World Heritage site, Angkor Wat is the largest religious monument in the world and a symbol of Cambodia.",
+      "googleMapsLink"     : "https://maps.app.goo.gl/6kJ69LMALQNhPjTT9",
+      "show_on_map"   : {
+        "content" : "show on map",
+        "link"    : "http://etc",
+        "distance": 0.8,
+        "metre"   : "km"
+      },
+      "images": [
+        {"img": "https://ik.imgkit.net/3vlqs5axxjf/TAW/uploadedImages/All_Gateways/ASPAC/Hotel_Review/Angkor%20Wat%20Hotels_HERO-2.jpg?tr=w-1200%2Cfo-auto","title": "Angkor Wat"},
+        {"img": "https://upload.wikimedia.org/wikipedia/commons/6/60/Angkor_Wat_Temple.jpg","title": "Angkor Wat"},
+        {"img": "https://cdn.mos.cms.futurecdn.net/veQKQrhqeLXwXHw4Q6qM3N.jpg","title": "Angkor Wat"},
+        {"img": "https://live.staticflickr.com/2895/14310893720_ea766aa3ac_b.jpg","title": "Angkor Wat"},
+        {"img": "https://live.staticflickr.com/841/42768480665_d7ec14df67_b.jpg","title": "Angkor Wat"},
+        {"img": "https://www.holidify.com/images/cmsuploads/compressed/2452357411712c53d5c31o_20201207194155.jpg","title": "Angkor Wat"}
+      ]
+    },
+    {
+      "id"            : 2,
+      "name"          : "Bayon Temple",
+      "country"       : "Siem Reap",
+      "location"      : "Angkor Thom, Siem Reap, Cambodia",
+      "rate_star"     : "4",
+      "grade"              : 9.3,
+      "evaluation"         : "Wonderful",
+      "reviewer_population": 787,
+      "btn_show_price"     : "add to plan",
+      "categories"         : [
+        "temple", "travel"
+      ],
+      "openingTime"   : "7: 30 AM",
+      "closingTime"   : "5: 30 PM",
+      "description"   : "Known for its serene stone faces, Bayon stands at the center of Angkor Thom and represents the intersection of heaven and earth.",
+      "googleMapsLink": "https://maps.app.goo.gl/We6TGarNJW7ndVxo6",
+      "show_on_map"   : {
+        "content" : "show on map",
+        "link"    : "http://etc",
+        "distance": 0.8,
+        "metre"   : "km"
+      },
+      "images": [
+        {"img": "https://a.cdn-hotels.com/gdcs/production169/d199/1aa9d4a4-6733-44f4-881a-4036a59b525b.jpg", "title": "Bayon Temple"},
+        {"img": "https://cambodiatravel.com/images/2020/12/Bayon-Temple-angkor-thom-cambodia-1.jpg", "title": "Bayon Temple"},
+        {"img": "https://www.visitsoutheastasia.travel/wp-content/uploads/2019/10/Cambodia-Bayon-Temple.jpg", "title": "Bayon Temple"},
+        {"img": "https://gadttravel.com/uploads/cambodia/phnom-penh/bac74c7535fc9079461678dd8737d5d1-bayon.jpg", "title": "Bayon Temple"},
+        {"img": "https://content.api.news/v3/images/bin/c01e82719a9b9d1507cf7d0f809d170d?width=2048", "title": "Bayon Temple"},
+        {"img": "https://www.thepoortraveler.net/wp-content/uploads/2012/11/bayon.jpg", "title": "Bayon Temple"}
+      ]
+    },
+    {
+      "id"            : 3,
+      "name"          : "Ta Prohm",
+      "country"       : "Siem Reap",
+      "location"      : "Angkor Archaeological Park, Siem Reap, Cambodia",
+      "rate_star"     : "4",
+      "grade"              : 9.3,
+      "evaluation"         : "Wonderful",
+      "reviewer_population": 787,
+      "btn_show_price"     : "add to plan",
+      "categories"         : [
+        "temple", "travel"
+      ],
+      "openingTime"   : "7: 30 AM",
+      "closingTime"   : "5: 30 PM",
+      "description"   : "Famous for its overgrown trees and ruins entangled with roots, Ta Prohm offers a picturesque and atmospheric experience.",
+      "googleMapsLink": "https://maps.app.goo.gl/NbFopsKLuNsHM1U58",
+      "show_on_map"   : {
+        "content" : "show on map",
+        "link"    : "http://etc",
+        "distance": 0.8,
+        "metre"   : "km"
+      },
+      "images": [ {"img": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Ta_Prohm_%28III%29.jpg", "title": "Ta Prohm"},
+      {"img": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/2c/f9/d7.jpg", "title": "Ta Prohm"},
+      {"img": "https://i0.wp.com/helloangkor.com/wp-content/uploads/2021/01/HA5D6976.jpg?fit=1200%2C800&ssl=1", "title": "Ta Prohm"},
+      {"img": "https://envirohistorynz.files.wordpress.com/2011/05/a-temple-eating-tree-at-ta-prohm-cambodia.jpg", "title": "Ta Prohm"},
+      {"img": "https://previews.123rf.com/images/ckchiu/ckchiu1201/ckchiu120100056/12072549-ta-prohm-temple-angkor-near-siem-reap-cambodia.jpg", "title": "Ta Prohm"}]
+    },
+    {
+      "id"            : 4,
+      "name"          : "Banteay Srei",
+      "country"       : "Siem Reap",
+      "location"      : "Near Siem Reap, Cambodia",
+      "rate_star"     : "4",
+      "grade"              : 9.3,
+      "evaluation"         : "Wonderful",
+      "reviewer_population": 787,
+      "btn_show_price"     : "add to plan",
+      "categories"         : [
+        "temple", "travel"
+      ],
+      "openingTime"   : "7:30 AM",
+      "closingTime"   : "5:30 PM",
+      "description"   : "Often referred to as the 'jewel of Khmer art', Banteay Srei is renowned for its intricate red sandstone carvings.",
+      "googleMapsLink": "https://maps.app.goo.gl/6CnoSb7kW4ED9NQeA",
+      "show_on_map"   : {
+        "content" : "show on map",
+        "link"    : "http://etc",
+        "distance": 0.8,
+        "metre"   : "km"
+      },
+      "images": [ {"img": "https://files.intocambodia.org/content/big/803ed6899fcb4ebdbefaa9fedd358b68.jpg", "title": "Banteay Srey"},
+      {"img": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/2c/f0/57.jpg", "title": "Banteay Srey"},
+      {"img": "https://toursbyjeeps.com/wp-content/uploads/2021/01/BTS-Temple.jpg", "title": "Banteay Srey"},
+      {"img": "https://evivatour.com/wp-content/uploads/2021/09/Banteay-Srei-Temple-Siem-Reap-Cambodia.jpg", "title": "Banteay Srey"}]
+    },
+    {
+      "id"            : 5,
+      "name"          : "Angkor National Museum",
+      "country"       : "Siem Reap",
+      "location"      : "Charles de Gaulle Blvd, Krong Siem Reap, Cambodia",
+      "rate_star"     : "4",
+      "grade"              : 9.3,
+      "evaluation"         : "Wonderful",
+      "reviewer_population": 787,
+      "btn_show_price"     : "add to plan",
+      "categories"         : [
+        "history", "travel", "museum"
+      ],
+      "openingTime"   : "8:30 AM",
+      "closingTime"   : "6:30 PM",
+      "description"   : "This museum enhances understanding of the cultural heritage of the Khmer civilization and Angkor temples.",
+      "googleMapsLink": "https://maps.app.goo.gl/HYZ2h5hgUZjyx7pv5",
+      "show_on_map"   : {
+        "content" : "show on map",
+        "link"    : "http://etc",
+        "distance": 0.8,
+        "metre"   : "km"
+      },
+      "images": [{"img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/8f/7d/8b/the-exterior-of-the-museum.jpg?w=1200&h=-1&s=1", "title": "Angkor National Museum"},
+      {"img": "https://www.lotusblancresort.com/uploads/attraction-gallery/national-museum-02.jpg", "title": "Angkor National Museum"},
+      {"img": "https://www.alexinwanderland.com/wp-content/uploads/2011/11/IMG_6707_1.jpg", "title": "Angkor National Museum"},
+      {"img": "https://www.privilegefloor.com/uploads/page-gallery/national-museum-03.jpg", "title": "Angkor National Museum"}]
+    },
+    {
+      "id"            : 6,
+      "name"          : "Preah Khan",
+      "country"       : "Siem Reap",
+      "location"      : "North of Angkor Thom, Siem Reap, Cambodia",
+      "rate_star"     : "4",
+      "grade"              : 9.3,
+      "evaluation"         : "Wonderful",
+      "reviewer_population": 787,
+      "btn_show_price"     : "add to plan",
+      "categories"         : [
+        "temple", "travel"
+      ],
+      "openingTime"   : "7:30 AM",
+      "closingTime"   : "5:30 PM",
+      "description"   : "A temple built by King Jayavarman VII, Preah Khan is a labyrinth of vaulted corridors, fine carvings, and lichen-clad stonework.",
+      "googleMapsLink": "https://maps.app.goo.gl/vVXkz9QDqR8sYygh7",
+      "show_on_map"   : {
+        "content" : "show on map",
+        "link"    : "http://etc",
+        "distance": 0.8,
+        "metre"   : "km"
+      },
+      "images": [{"img": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Preah_Khan%2C_Angkor%2C_Camboya%2C_2013-08-17%2C_DD_26.JPG", "title": "Preah Khan"},
+      {"img": "https://a.cdn-hotels.com/gdcs/production186/d922/538d59d8-598c-4f93-be62-c1426024d73c.jpg", "title": "Preah Khan"},
+      {"img": "https://d2d3n9ufwugv3m.cloudfront.net/w1200-h900-cfill/topics/w6hdv-preah%20khan%20temple%20siem%20reap%202.jpg", "title": "Preah Khan"},
+      {"img": "https://www.renown-travel.com/images/preah-khan-l.jpg", "title": "Preah Khan"}]
+    },
+    {
+      "id"         : 7,
+      "name"       : "Terrace of the Elephants",
+      "country"    : "Siem Reap",
+      "location"   : "Angkor Thom, Siem Reap, Cambodia",
+      "rate_star"     : "4",
+      "grade"              : 9.3,
+      "evaluation"         : "Wonderful",
+      "reviewer_population": 787,
+      "btn_show_price"     : "add to plan",
+      "categories"         : [
+        "temple", "travel"
+      ],
+      "openingTime": "7:30 AM",
+      "closingTime": "5:30 PM",
+      "description": "Part of the walled city of Angkor Thom, the terrace was used by King Jayavarman VII to view his victorious returning army.",
+      "googleMapsLink": "https://maps.app.goo.gl/SHiMqhs6XhTXQnVVA",
+      "show_on_map"   : {
+        "content" : "show on map",
+        "link"    : "http://etc",
+        "distance": 0.8,
+        "metre"   : "km"
+      },
+      "images": [{"img": "https://www.renown-travel.com/images/terrace-of-the-elephants-l.jpg", "title": "Elephants Terrace"},
+      {"img": "https://a.cdn-hotels.com/gdcs/production134/d1195/01b44185-2882-4e2a-8e15-fb85d5440880.jpg", "title": "Elephants Terrace"}]
+    },
+    {
+      "id"            : 8,
+      "name"          : "Beng Mealea Temple",
+      "country"       : "Siem Reap",
+      "location"      : "40 km east of the main group of temples at Angkor, Siem Reap Province, Cambodia",
+      "rate_star"     : "4",
+      "grade"              : 9.3,
+      "evaluation"         : "Wonderful",
+      "reviewer_population": 787,
+      "btn_show_price"     : "add to plan",
+      "categories"         : [
+        "temple", "travel"
+      ],
+      "openingTime"   : "7:30 AM",
+      "closingTime"   : "5:30 PM",
+      "description"   : "Comparable to Ta Prohm, Beng Mealea is largely overrun by vegetation and very lightly toured, giving it an adventurous, lost temple feel.",
+      "googleMapsLink": "https://maps.app.goo.gl/T1kLzPyEdbvnghnK6",
+      "show_on_map"   : {
+        "content" : "show on map",
+        "link"    : "http://etc",
+        "distance": 0.8,
+        "metre"   : "km"
+      },
+      "images": [
+        {"img": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Beng_Melea%2C_Cambodia_%282212306460%29.jpg","title": "Beng Melea Temple"},
+        {"img": "https://www.angkorphotographytours.com/wp-content/uploads/2015/11/IMG_4858.jpg","title": "Beng Melea Temple"},
+        {"img": "https://a.cdn-hotels.com/gdcs/production196/d1/9902ceb2-f452-449d-bdf3-d1ff7be5b464.jpg","title": "Beng Melea Temple"},
+        {"img": "https://toursbyjeeps.com/wp-content/uploads/2021/06/BML.jpg","title": "Beng Melea Temple"},
+        {"img": "https://travellenz.in/wp-content/uploads/2019/08/DSC_0713A.jpg","title": "Beng Melea Temple"},
+        {"img": "https://journeyofanomadicfamily.com/wp-content/uploads/16-10954-post/DSC_8108.jpg","title": "Beng Melea Temple"}
+      ]
+    },
+    {
+      "id"            : 9,
+      "name"          : "Phnom Kulen National Park",
+      "country"       : "Siem Reap",
+      "location"      : "Siem Reap, Cambodia",
+      "rate_star"     : "4",
+      "grade"              : 9.3,
+      "evaluation"         : "Wonderful",
+      "reviewer_population": 787,
+      "btn_show_price"     : "add to plan",
+      "categories"         : [
+        "park", "travel", "waterfall", "mountain"
+      ],
+      "openingTime"   : "7:00 AM",
+      "closingTime"   : "5:00 PM",
+      "description"   : "A sacred mountain in Cambodian history, known for its carvings, temples, and waterfalls.",
+      "googleMapsLink": "https://maps.app.goo.gl/L2XH8UiAqKnJxK9T8",
+      "show_on_map"   : {
+        "content" : "show on map",
+        "link"    : "http://etc",
+        "distance": 0.8,
+        "metre"   : "km"
+      },
+      "images": [{"img": "https://live.staticflickr.com/5735/23345795526_ee6f22a38b_b.jpg", "title": "Phnom Kulen"},
+      {"img": "https://www.siemreap.net/wp-content/uploads/2017/12/phnom-kulen-waterfall.jpg", "title": "Phnom Kulen"},
+      {"img": "https://cdn.getyourguide.com/img/tour/6482d67390b67.jpeg/145.jpg", "title": "Phnom Kulen"},
+      {"img": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/06/6e/ec/8c.jpg", "title": "Phnom Kulen"}]
+    },
+    {
+      "id"            : 10,
+      "name"          : "Pub Street",
+      "country"       : "Siem Reap",
+      "location"      : "Downtown Siem Reap, Cambodia",
+      "rate_star"     : "4",
+      "grade"              : 9.3,
+      "evaluation"         : "Wonderful",
+      "reviewer_population": 787,
+      "btn_show_price"     : "add to plan",
+      "categories"         : [
+        "travel", "chill"
+      ],
+      "openingTime"   : "Varies",
+      "closingTime"   : "Late night",
+      "description"   : "A bustling street in Siem Reap known for its vibrant nightlife, restaurants, and bars.",
+      "googleMapsLink": "https://maps.app.goo.gl/6Tubwj6kBPPp8z3M8",
+      "show_on_map"   : {
+        "content" : "show on map",
+        "link"    : "http://etc",
+        "distance": 0.8,
+        "metre"   : "km"
+      },
+      "images": [
+        {"img": "https://a.cdn-hotels.com/gdcs/production85/d1952/83ba4f3b-a86d-4bf4-8113-46987328a108.jpg", "title": "Pub Street"},
+        {"img": "https://d13jio720g7qcs.cloudfront.net/images/destinations/origin/5fa25bf66eed9.jpg", "title": "Pub Street"},
+        {"img": "https://smartsinntravel.com/userfiles/pub-street-smart-sinn-travel4.jpg", "title": "Pub Street"},
+        {"img": "https://live.staticflickr.com/1763/43271516892_0aed5ef0eb_b.jpg", "title": "Pub Street"}
+      ]
+    }
+  ]
+  

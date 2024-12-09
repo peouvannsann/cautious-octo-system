@@ -1,0 +1,14 @@
+# create service
+# create controller
+  method must match with trailing endpoint
+# create json file in resources/wrapper_json_folder
+# create service in carrier_staging
+
+
+Develop on dev branch
+merge dev code into main
+checkout to prod, pull code from main and push to remote branch
+
+git pull origin dev && git push origin dev
+git checkout main && git merge dev
+git checkout prod && git pull origin main && git push origin prod

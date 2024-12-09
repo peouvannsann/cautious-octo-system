@@ -1,0 +1,107 @@
+{
+  "origin": {
+      "city": "Saint-Martin-d'H\u00e8res",
+      "name": "Jean Christophe Husak",
+      "email": "chrishusak.mc@gmail.com",
+      "line1": "12 Rue du Tour de l'Eau",
+      "line2": "12 Rue du Tour de l'Eau",
+      "phone": "+33621785412",
+      "state": "",
+      "company": "Jean Christophe Husak",
+      "zipcode": "38400",
+      "last_name": "Husak",
+      "first_name": "Jean Christophe",
+      "country_code": "FR"
+  },
+  "parcel": {
+      "article": [
+          {
+              "value": "4.50",
+              "artref": "FUJIM-15110106",
+              "hsCode": "",
+              "weight": 200,
+              "currency": "EUR",
+              "original": {
+                  "invoiceDate": "2024-10-13 00:00:00",
+                  "parcelNumber": "9V34619794722",
+                  "invoiceNumber": "#DB-55277-FR"
+              },
+              "quantity": 1,
+              "description": "Ceinture d'entrainement Karate Kyokushin Fuji Mae, couleurs solides et vives gr\u00e2ce \u00e0 un colorant ferme. Sa confection int\u00e9rieure est \u00e9tudi\u00e9e pour un bon \u00e9quilibre entre rigidit\u00e9 et flexibilit\u00e9.",
+              "originCountry": null
+          },
+          {
+              "value": "34.96",
+              "artref": "FUJIM-10110101",
+              "hsCode": "",
+              "weight": 1500,
+              "currency": "EUR",
+              "original": {
+                  "invoiceDate": "2024-10-13 00:00:00",
+                  "parcelNumber": "9V34619794722",
+                  "invoiceNumber": "#DB-55277-FR"
+              },
+              "quantity": 1,
+              "description": "Le Karate Gi Training Kyokushin de chez Fuji Mae a pour ambition de se positionner comme le meilleur de sa cat\u00e9gorie : la pratique quotidienne.  D'o\u00f9 le choix d'un tissu 100% coton 9oz, pour toujours plus de r\u00e9sistance, de confort et de qualit\u00e9 dans le cadre d'un usage intense. Il reste\u00a0 id\u00e9al pour les d\u00e9butants, et les accompagnera tout au long des niveaux de progression, d'interm\u00e9diaire \u00e0 expert. Rapport qualit\u00e9 prix imbattable pour du 100 % coton.",
+              "originCountry": null
+          }
+      ],
+      "width_in_cm": 40,
+      "height_in_cm": 40,
+      "length_in_cm": 40,
+      "weight_in_grams": 1700,
+      "number_of_pieces": 1
+  },
+  "postal": {
+      "mailbox_picking": true
+  },
+  "options": {
+      "category": "",
+      "mailbox_picking_available": true
+  },
+  "contract": {
+      "password": "BSLbsl3",
+      "contract_number": "897807"
+  },
+  "shipments": [
+      {
+          "ean": "8435204761716",
+          "label": "",
+          "reason": "doesnt_fit.design",
+          "width_mm": 0,
+          "height_mm": 0,
+          "length_mm": 0,
+          "photo_url": "https:\/\/merchant-dash.shoprunback.com\/images\/unknown_image.jpg",
+          "reference": "1832f2be-0ad2-432a-8a6b-52b073823cdd",
+          "weight_grams": 200,
+          "merchant_reference": 108
+      },
+      {
+          "ean": "8435204763819",
+          "label": "",
+          "reason": "doesnt_fit.design",
+          "width_mm": 0,
+          "height_mm": 0,
+          "length_mm": 0,
+          "photo_url": "https:\/\/merchant-dash.shoprunback.com\/images\/unknown_image.jpg",
+          "reference": "b3006236-6a82-4de3-b97b-2628c286f2e5",
+          "weight_grams": 1500,
+          "merchant_reference": 108
+      }
+  ],
+  "destination": {
+      "city": "CHATILLON SUR SEICHE",
+      "name": "DRAGON BLEU  BSL Noyal",
+      "email": "B@TEST.COM",
+      "line1": "Quai 10 \u00e0 13 B\u00e2timent Gefco 8 Rue Ren\u00e9 Panhard",
+      "line2": "8 Rue Ren\u00e9 Panhard",
+      "phone": "0297000000",
+      "company": "DRAGON BLEU  BSL Noyal",
+      "zipcode": "35230",
+      "last_name": "B",
+      "first_name": "A",
+      "carrier_code": "B@TEST.COM",
+      "country_code": "FR"
+  },
+  "order_number": "#DB-55277-FR"
+}

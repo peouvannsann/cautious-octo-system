@@ -1,0 +1,32 @@
+[
+    {
+        "title" : "planA",
+        "start_date"    : "2024-02-16 06:06:28",
+        "end_date"      : "2024-02-20 06:06:28",
+        "user_id"       : 1
+    },
+    {
+        "title" : "planB",
+        "start_date"    : "2024-02-20 06:06:28",
+        "end_date"      : "2024-02-25 06:06:28",
+        "user_id"       : 1
+    },
+    {
+        "title" : "planC",
+        "start_date"    : "2024-02-25 06:06:28",
+        "end_date"      : "2024-03-02 06:06:28",
+        "user_id"       : 1
+    },
+    {
+        "title" : "planD",
+        "start_date"    : "2024-02-22 06:06:28",
+        "end_date"      : "2024-02-23 06:06:28",
+        "user_id"       : 2
+    },
+    {
+        "title" : "planE",
+        "start_date"    : "2024-02-24 06:06:28",
+        "end_date"      : "2024-02-27 06:06:28",
+        "user_id"       : 2
+    }
+]

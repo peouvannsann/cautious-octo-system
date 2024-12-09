@@ -1,0 +1,14 @@
+[
+    {
+        "name" : "addidas",
+        "category_id" : 1,
+        "vat" : 10.0,
+        "image" : "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Fzh%2Fsearch%2Fadidas-logo&psig=AOvVaw3gD4YNQRgP_uxuU-8h6aVc&ust=1708498880361000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCIjK_LisuYQDFQAAAAAdAAAAABAE"
+    },
+    {
+        "name" : "may & marry",
+        "category_id" : 2,
+        "vat" : 10.0,
+        "image" : "https://www.google.com/url?sa=i&url=https%3A%2F%2Feng.marynmay.com%2F&psig=AOvVaw3N6NwGLNpt6QrKt2PxQ1-a&ust=1708498954214000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCPDjitysuYQDFQAAAAAdAAAAABAR"
+    }
+]

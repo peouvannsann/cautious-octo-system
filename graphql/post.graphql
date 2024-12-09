@@ -1,0 +1,11 @@
+type Query {
+  posts: [Post!]! @paginate
+  post(id: ID @eq): Post @find
+}
+
+type Post {
+  id: ID,
+  title: String,
+  body: String,
+  author: User! @belongsTo
+}

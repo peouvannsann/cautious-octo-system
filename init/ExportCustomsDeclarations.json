@@ -1,0 +1,181 @@
+{
+    "responseStatus": {
+        "statusCode": 200,
+        "statusMessage": "OK"
+    },
+    "data": {
+        "customsDeclarations": [
+            {
+                "itemIdentifier": "LR149048205CN",
+                "destinationOperator": null,
+                "originOperator": null,
+                "mailClass": null,
+                "alternateIdentifiers": null,
+                "serviceContractorParty": null,
+                "attributeVersionNumber": 1,
+                "customers": {
+                    "sender": {
+                        "identification": {
+                            "name": "Glasses International",
+                            "reference": "MAGLI",
+                            "additionalData": null
+                        },
+                        "address": {
+                            "premises": {
+                                "line1": "Sender Road 1",
+                                "line2": null,
+                                "line3": null,
+                                "line4": null
+                            },
+                            "countryCode": "MA",
+                            "city_town": "Marrakesh",
+                            "postCode": "MA10401",
+                            "region": null
+                        },
+                        "contactDetails": {
+                            "emails": [
+                                "sender1@test.com"
+                            ],
+                            "telephone": null,
+                            "fax": null
+                        }
+                    },
+                    "addressee": {
+                        "identification": {
+                            "name": "Chan Li",
+                            "reference": null,
+                            "additionalData": null
+                        },
+                        "address": {
+                            "premises": {
+                                "line1": "Receiver Road 1, Danyang City",
+                                "line2": "China",
+                                "line3": null,
+                                "line4": null
+                            },
+                            "countryCode": "CN",
+                            "city_town": "Jiangsu Province",
+                            "postCode": "CN10401",
+                            "region": "China"
+                        },
+                        "contactDetails": {
+                            "emails": [
+                                "receiver1@sender.com"
+                            ],
+                            "telephone": [
+                                "1234567890"
+                            ],
+                            "fax": null
+                        }
+                    }
+                },
+                "dangerousGood": null,
+                "declaredGrossWeight": 0.070,
+                "measuredGrossWeight": null,
+                "insuredValue": null,
+                "postagePaidValue": null,
+                "additionalFee": {
+                    "currencyCode": "USD",
+                    "amount": 9.47
+                },
+                "customsTaxInformation": null,
+                "eventData": {
+                    "code": "XP",
+                    "dateTime": "2024-04-01T06:55:00",
+                    "location": {
+                        "code": "MA",
+                        "function": "4"
+                    },
+                    "associatedEntity": {
+                        "identifier": null
+                    },
+                    "status": "P",
+                    "reason": null
+                }
+            },
+            {
+                "itemIdentifier": "LR154045475CN",
+                "destinationOperator": null,
+                "originOperator": null,
+                "mailClass": null,
+                "alternateIdentifiers": null,
+                "serviceContractorParty": null,
+                "attributeVersionNumber": 1,
+                "customers": {
+                    "sender": {
+                        "identification": {
+                            "name": "Sender road 2",
+                            "reference": "GBUNREG",
+                            "additionalData": null
+                        },
+                        "address": {
+                            "premises": {
+                                "line1": "Receiver street 2",
+                                "line2": null,
+                                "line3": null,
+                                "line4": null
+                            },
+                            "countryCode": "MA",
+                            "city_town": "Meknes",
+                            "postCode": "MA83LS",
+                            "region": null
+                        },
+                        "contactDetails": {
+                            "emails": [
+                                "sender2@test.com"
+                            ],
+                            "telephone": null,
+                            "fax": null
+                        }
+                    },
+                    "addressee": {
+                        "identification": {
+                            "name": "Xin yi",
+                            "reference": null,
+                            "additionalData": null
+                        },
+                        "address": {
+                            "premises": {
+                                "line1": "Receiver road 2",
+                                "line2": null,
+                                "line3": null,
+                                "line4": null
+                            },
+                            "countryCode": "CN",
+                            "city_town": "HUTANG VILLAGE",
+                            "postCode": "CN321",
+                            "region": null
+                        },
+                        "contactDetails": {
+                            "emails": [
+                                "receiver2@test.com"
+                            ],
+                            "telephone": null,
+                            "fax": null
+                        }
+                    }
+                },
+                "dangerousGood": null,
+                "declaredGrossWeight": 0.470,
+                "measuredGrossWeight": null,
+                "insuredValue": null,
+                "postagePaidValue": null,
+                "additionalFee": null,
+                "customsTaxInformation": null,
+                "eventData": {
+                    "code": "XP",
+                    "dateTime": "2024-04-01T06:55:00",
+                    "location": {
+                        "code": "CN",
+                        "function": "4"
+                    },
+                    "associatedEntity": {
+                        "identifier": null
+                    },
+                    "status": "P",
+                    "reason": null
+                }
+            }
+        ]
+    }
+}

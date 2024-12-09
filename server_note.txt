@@ -1,0 +1,7 @@
+tue 20 feb/10:42 2024
+php artisan migrate:refresh --path=database/migrations/2024_02_07_161015_create_brands_table.php
+php artisan migrate:refresh --path=database/migrations/2022_10_15_074214_create_products_table.php
+php artisan db:seed --class=CategorySeeder
+php artisan db:seed --class=SubCategorySeeder
+php artisan db:seed --class=BrandsSeeder
+php artisan db:seed --class=ProductSeeder

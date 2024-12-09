@@ -1,0 +1,72 @@
+
+version: '3.8'
+services:
+
+#Nginx Service
+  webserver:
+    image: nginx:alpine
+    container_name: carrier_nginx
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "8096:80"
+    volumes:
+      - ./:/var/www
+      - ./docker/nginx/conf.d/:/etc/nginx/conf.d/
+      - ./docker/nginx/error.log:/var/log/nginx/error.log
+      - ./docker/nginx/access.log:/var/log/nginx/access.log
+    networks:
+      - carrier_networks
+    depends_on:
+      - mysql
+#PHP Service
+  app:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: php:latest
+    container_name: carrier_php
+    restart: unless-stopped
+    tty: true
+    environment:
+      SERVICE_NAME: app
+      SERVICE_TAGS: dev
+      PHP_EXTENSION_XDEBUG: 1
+      XDEBUG_MODE: debug
+      XDEBUG_CONFIG: client_host=host.docker.internal client_port=9003
+    working_dir: /var/www
+    ports:
+      - "9007:9000"
+    volumes:
+      - ./:/var/www
+      - ./docker/php/local.ini:/usr/local/etc/php/conf.d/local.ini
+    networks:
+      - carrier_networks
+    depends_on:
+      - mysql
+#MySql
+  mysql:
+    container_name: carrier_mysql
+    image:    'mysql:8.0'
+    restart:  always
+    ports:
+      - "3310:3306"
+    volumes:
+        # - rundbdata:/var/run/mysqld
+        - ./docker/mysql/my.cnf:/etc/mysql/my.cnf
+    environment:
+      MYSQL_ROOT_PASSWORD: '${DB_PASSWORD}'
+      MYSQL_ROOT_HOST: "%"
+      MYSQL_DATABASE: '${DB_DATABASE}'
+      MYSQL_USER:     '${DB_USERNAME}'
+      MYSQL_PASSWORD: '${DB_PASSWORD}'
+      MYSQL_ALLOW_EMPTY_PASSWORD: 1
+    networks:
+      - carrier_networks 
+networks:
+  carrier_networks:
+    driver: bridge
+#Volumes
+# volumes:
+#   rundbdata:
+#     driver: local

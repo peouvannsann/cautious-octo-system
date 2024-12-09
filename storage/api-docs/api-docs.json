@@ -1,0 +1,677 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Kodementor Api Documentation",
+        "description": "Kodementor Api Documentation",
+        "contact": {
+            "name": "Vijay Rana",
+            "email": "info@kodementor.com"
+        },
+        "license": {
+            "name": "Apache 2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+        },
+        "version": "1.0.0"
+    },
+    "servers": [
+        {
+            "url": "/api"
+        }
+    ],
+    "paths": {
+        "/auth/register": {
+            "post": {
+                "tags": [
+                    "Authenticate"
+                ],
+                "summary": "Register a new user",
+                "operationId": "Create User",
+                "parameters": [
+                    {
+                        "name": "name",
+                        "in": "query",
+                        "description": "User's name",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "email",
+                        "in": "query",
+                        "description": "User's email",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "password",
+                        "in": "query",
+                        "description": "User's password",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "User registered successfully"
+                    },
+                    "422": {
+                        "description": "Validation errors"
+                    }
+                }
+            }
+        },
+        "/auth/login": {
+            "post": {
+                "tags": [
+                    "Authenticate"
+                ],
+                "summary": "Login a new user",
+                "operationId": "Login",
+                "parameters": [
+                    {
+                        "name": "email",
+                        "in": "query",
+                        "description": "User's email",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        },
+                        "example": "vannsann1@gmail.com"
+                    },
+                    {
+                        "name": "password",
+                        "in": "query",
+                        "description": "User's password",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        },
+                        "example": "123456"
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "User Login successfully"
+                    },
+                    "422": {
+                        "description": "Validation errors"
+                    }
+                }
+            }
+        },
+        "/sendOtpPhone": {
+            "get": {
+                "tags": [
+                    "OTP"
+                ],
+                "summary": "get OTP",
+                "operationId": "sendOtpPhone",
+                "responses": {
+                    "201": {
+                        "description": "User registered successfully"
+                    },
+                    "422": {
+                        "description": "Validation errors"
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            }
+        },
+        "/getbrand": {
+            "get": {
+                "tags": [
+                    "Brand"
+                ],
+                "summary": "get brand",
+                "operationId": "getBrand",
+                "parameters": [
+                    {
+                        "name": "page",
+                        "in": "query",
+                        "description": "Page Index",
+                        "required": false,
+                        "schema": {
+                            "type": "int"
+                        },
+                        "example": 1
+                    },
+                    {
+                        "name": "perPage",
+                        "in": "query",
+                        "description": "perPage Index",
+                        "required": false,
+                        "schema": {
+                            "type": "int"
+                        },
+                        "example": 10
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "User registered successfully"
+                    },
+                    "422": {
+                        "description": "Validation errors"
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            }
+        },
+        "/addCard": {
+            "post": {
+                "tags": [
+                    "Card"
+                ],
+                "summary": "add card",
+                "operationId": "addCard",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "example": [
+                                    {
+                                        "card_owner": "vannsann",
+                                        "card_number": "123456789",
+                                        "cvv": "321",
+                                        "expire_date": "2/2025"
+                                    },
+                                    {
+                                        "card_owner": "alex john",
+                                        "card_number": "987654321",
+                                        "cvv": "123",
+                                        "expire_date": "2/2025"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "User registered successfully"
+                    },
+                    "422": {
+                        "description": "Validation errors"
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            }
+        },
+        "/getCard": {
+            "get": {
+                "tags": [
+                    "Card"
+                ],
+                "summary": "get card by user",
+                "operationId": "getCard",
+                "responses": {
+                    "201": {
+                        "description": "User registered successfully"
+                    },
+                    "422": {
+                        "description": "Validation errors"
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            }
+        },
+        "/addCart": {
+            "post": {
+                "tags": [
+                    "Cart"
+                ],
+                "summary": "add Cart",
+                "operationId": "addCart",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "example": [
+                                    {
+                                        "product_id": 1,
+                                        "qty": 1,
+                                        "price": 10
+                                    },
+                                    {
+                                        "product_id": 2,
+                                        "qty": 2,
+                                        "price": 20
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "User registered successfully"
+                    },
+                    "422": {
+                        "description": "Validation errors"
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            }
+        },
+        "/getPopularFilter": {
+            "get": {
+                "tags": [
+                    "Category"
+                ],
+                "summary": "get category ",
+                "operationId": "getPopularFilter",
+                "responses": {
+                    "201": {
+                        "description": "Category successfully"
+                    },
+                    "422": {
+                        "description": "Validation errors"
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            }
+        },
+        "/addOrder": {
+            "post": {
+                "tags": [
+                    "Order"
+                ],
+                "summary": "add Order",
+                "operationId": "addOrder",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "example": {
+                                    "items": [
+                                        1,
+                                        2,
+                                        3,
+                                        4
+                                    ],
+                                    "grant_qty": 10,
+                                    "grant_total": 20,
+                                    "address": {
+                                        "name": "up",
+                                        "country": "Cambodia",
+                                        "city": "Phnom penh",
+                                        "phone number": "097878765",
+                                        "address": "1st 225 psa depo2"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "User registered successfully"
+                    },
+                    "422": {
+                        "description": "Validation errors"
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            }
+        },
+        "/getPlanVisitPlace": {
+            "get": {
+                "tags": [
+                    "Plan"
+                ],
+                "summary": "get plan ",
+                "operationId": "getPlanVisitPlace",
+                "parameters": [
+                    {
+                        "name": "date",
+                        "in": "path",
+                        "description": "date",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        },
+                        "example": "2024-02-16"
+                    },
+                    {
+                        "name": "page",
+                        "in": "query",
+                        "description": "Page Index",
+                        "required": false,
+                        "schema": {
+                            "type": "int"
+                        },
+                        "example": 1
+                    },
+                    {
+                        "name": "perPage",
+                        "in": "query",
+                        "description": "perPage Index",
+                        "required": false,
+                        "schema": {
+                            "type": "int"
+                        },
+                        "example": 10
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "User registered successfully"
+                    },
+                    "422": {
+                        "description": "Validation errors"
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            }
+        },
+        "/addPlanVisitPlace": {
+            "post": {
+                "tags": [
+                    "Plan"
+                ],
+                "summary": "add plan",
+                "operationId": "addPlanVisitPlace",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "properties": {
+                                    "plan": {
+                                        "type": "array",
+                                        "items": {
+                                            "type": "object",
+                                            "format": "query"
+                                        },
+                                        "collectionFormat": "multi"
+                                    }
+                                },
+                                "type": "object",
+                                "example": {
+                                    "plan": [
+                                        {
+                                            "title": "plan A",
+                                            "start_date": "2024-02-20 06:06:28",
+                                            "end_date": "2024-02-22 06:06:28",
+                                            "details": [
+                                                {
+                                                    "day": 1,
+                                                    "visit_place": [
+                                                        1,
+                                                        2
+                                                    ]
+                                                },
+                                                {
+                                                    "day": 2,
+                                                    "visit_place": [
+                                                        3,
+                                                        4
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "plan A",
+                                            "start_date": "2024-02-22 06:06:28",
+                                            "end_date": "2024-02-25 06:06:28",
+                                            "details": [
+                                                {
+                                                    "day": 1,
+                                                    "visit_place": [
+                                                        5,
+                                                        6
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "User registered successfully"
+                    },
+                    "422": {
+                        "description": "Validation errors"
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            }
+        },
+        "/getProduct": {
+            "get": {
+                "tags": [
+                    "Products"
+                ],
+                "summary": "get products",
+                "operationId": "getProduct",
+                "parameters": [
+                    {
+                        "name": "brand_id",
+                        "in": "query",
+                        "description": "brand_id",
+                        "required": false,
+                        "schema": {
+                            "type": "int"
+                        },
+                        "example": 1
+                    },
+                    {
+                        "name": "search",
+                        "in": "query",
+                        "description": "search Index",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        },
+                        "example": "shoe"
+                    },
+                    {
+                        "name": "page",
+                        "in": "query",
+                        "description": "Page Index",
+                        "required": false,
+                        "schema": {
+                            "type": "int"
+                        },
+                        "example": 1
+                    },
+                    {
+                        "name": "perPage",
+                        "in": "query",
+                        "description": "perPage Index",
+                        "required": false,
+                        "schema": {
+                            "type": "int"
+                        },
+                        "example": 10
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "User registered successfully"
+                    },
+                    "422": {
+                        "description": "Validation errors"
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            }
+        },
+        "/getUserRole/{id}": {
+            "get": {
+                "tags": [
+                    "User"
+                ],
+                "summary": "Get user by ID",
+                "operationId": "User",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "User's ID ",
+                        "required": false,
+                        "schema": {
+                            "type": "int"
+                        }
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "successfully"
+                    },
+                    "422": {
+                        "description": "errors"
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            }
+        },
+        "/getUser": {
+            "get": {
+                "tags": [
+                    "User"
+                ],
+                "summary": "Get user",
+                "operationId": "get user",
+                "responses": {
+                    "201": {
+                        "description": "successfully"
+                    },
+                    "422": {
+                        "description": "errors"
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            }
+        },
+        "/getVisitPlaceByProvince": {
+            "get": {
+                "tags": [
+                    "Visit Place"
+                ],
+                "summary": "get visit place by province",
+                "operationId": "getVisitPlaceByprovince",
+                "parameters": [
+                    {
+                        "name": "province",
+                        "in": "query",
+                        "description": "province",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        },
+                        "example": "Kampot"
+                    },
+                    {
+                        "name": "cagetories",
+                        "in": "query",
+                        "description": "cagetories",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        },
+                        "example": "farm"
+                    },
+                    {
+                        "name": "page",
+                        "in": "query",
+                        "description": "Page Index",
+                        "required": false,
+                        "schema": {
+                            "type": "int"
+                        },
+                        "example": 1
+                    },
+                    {
+                        "name": "perPage",
+                        "in": "query",
+                        "description": "perPage Index",
+                        "required": false,
+                        "schema": {
+                            "type": "int"
+                        },
+                        "example": 10
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "User registered successfully"
+                    },
+                    "422": {
+                        "description": "Validation errors"
+                    }
+                },
+                "security": [
+                    {
+                        "bearerAuth": []
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "securitySchemes": {
+            "bearerAuth": {
+                "type": "http",
+                "bearerFormat": "plainTextToken",
+                "scheme": "bearer"
+            }
+        }
+    }
+}

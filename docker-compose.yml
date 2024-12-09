@@ -1,0 +1,63 @@
+version: "3.7"
+services:
+  app:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    # image: pvannsann/php8.1-fpm:v1.0.2
+    container_name: web_midterm_y4_s1_backend_php
+    restart: unless-stopped
+    working_dir: /var/www/
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+    volumes:
+      - ./:/var/www
+      - ./xdebug-local.ini:/usr/local/etc/php/conf.d/xdebug-local.ini
+    ports:
+      - 8014:9000
+    # command: >
+    #   bash -c "sudo chmod -R 777 storage/
+    #   composer update
+    #   "
+
+# dependency service db
+  db:
+    image: mysql:8.0
+    container_name: web_midterm_y4_s1_backend_db
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: ${DB_DATABASE}
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+      MYSQL_USER: ${DB_USERNAME}
+      SERVICE_TAGS: dev
+      SERVICE_NAME: mysql
+    volumes:
+      - ./docker-compose/mysql:/docker-entrypoint-initdb.d
+      - ./docker-compose/mysql/mysql-datavolume:/var/lib/mysql 
+      # - ./docker/mysql/data-volume:/var/lib/mysql
+    ports:
+      - 3334:3306
+
+# dependency service nginx
+  nginx:
+    image: nginx:alpine
+    container_name: web_midterm_y4_s1_backend_nginx
+    restart: unless-stopped
+    ports:
+      - 8011:80
+    volumes:
+      - ./:/var/www
+      - ./docker-compose/nginx:/etc/nginx/conf.d/
+
+  redis:
+    image: redis:latest
+    container_name: web_midterm_y4_s1_backend_redis
+    ports:
+      - "6380:6379"
+
+
+networks:
+  default:
+    driver: bridge

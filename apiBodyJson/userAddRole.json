@@ -1,0 +1,40 @@
+{
+    "user" : {
+        "name" : "John",
+        "email" : "john@example.com",
+        "password" : "123456",
+        "phone": [
+            "099 123 123",
+            "099 123 213",
+            "099 123 312",
+            "099 123 231"
+        ]
+    },
+    "role" : [2,4],
+    "posts" : [
+        {
+            "title": "title 1",
+            "body": "body testing",
+            "comments": [
+                {
+                    "body": "comment post 1"
+                },
+                {
+                    "body": "comment post 2"
+                }
+            ]
+        },
+        {
+            "title": "title 2",
+            "body": "body testing",
+            "comments": [
+                {
+                    "body": "comment post 1"
+                },
+                {
+                    "body": "comment post 2"
+                }
+            ]
+        }
+    ]
+}
